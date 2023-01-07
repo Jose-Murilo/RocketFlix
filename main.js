@@ -31,9 +31,9 @@ buttonMovieRandom.addEventListener('click', async () => {
     }
 
     if (window.innerWidth <= 594) {
-      containerTwo.style.height = '100%'
+      containerTwo.style.height = '100vh'
+      // containerTwo.style.height = '100%'
     } else {
-      console.log('la');
       containerTwo.style.height = '100vh'
     }
 
