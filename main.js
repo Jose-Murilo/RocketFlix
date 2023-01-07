@@ -30,12 +30,11 @@ buttonMovieRandom.addEventListener('click', async () => {
       main.style.marginTop = '2rem'
     }
 
-    if (window.innerWidth <= 594) {
-      containerTwo.style.height = '100vh'
-      // containerTwo.style.height = '100%'
-    } else {
-      containerTwo.style.height = '100vh'
-    }
+    // if (window.innerWidth <= 594) {
+    //   containerTwo.style.height = '100%'
+    // } else {
+    //   containerTwo.style.height = '100vh'
+    // }
 
   })
   
