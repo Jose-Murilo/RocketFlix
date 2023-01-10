@@ -23,8 +23,6 @@
     padding: 0;
     margin: 0;
   
-    background-color: red;
-  
     background: var(--background);
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,9 +53,7 @@ header h1 {
     color: var(--title);
 }
 
-.movieTitle {
-    color: var(--title);
-}
+
 
 main .containerMovie {
     width: 100%;
@@ -70,7 +66,6 @@ main .containerMovie {
 
 main .containerMovie .coverImage img {
     width: 12.2rem;
-    /* width: 100%; */
     margin-top: 1.2rem
 }
 
@@ -82,16 +77,22 @@ main .contentText {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 2.0rem;
+    color: var(--title);
 }
-
 
 main .contentText p {
     color: var(--subtitle);
-
+    
     padding-top: 1.4rem;
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 1.4rem;
+}
+
+.releaseDate strong {
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+    font-weight: bolder;
 }
 
 .sendSurvey {
@@ -119,6 +120,12 @@ main .contentText p {
     margin-bottom: 2.6rem;
 }
 
+/* >>>>>> Footer <<<<<< */
+
+footer {
+    padding-bottom: 1.2rem;
+}
+
 footer div {
     font-family: 'Poppins';
     font-weight: 400;
@@ -128,19 +135,21 @@ footer div {
     color: var(--subtitle);
 }
 
+/* >>>>>> Responsividade <<<<<< */
+
 @media (max-width: 594px) {
 
     header{
-        padding-top: 3.4rem;
+        padding-top: 4.4rem;
+        padding-bottom: 2rem;
     }
 
     main .containerMovie {
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         padding-left: 0;
         align-items: center;
-        
     }
 
     main .contentText h2,
