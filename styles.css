@@ -105,7 +105,7 @@ main .contentText p {
     width: 18.0rem;
     height: 4.7rem;
 
-    padding-left: 1.7rem;
+    padding-left: 1.2rem;
     border-radius: .5rem;
     cursor: pointer;
 
@@ -116,7 +116,7 @@ main .contentText p {
 
     display: flex;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1.5rem;
     margin-bottom: 2.6rem;
 }
 
